@@ -1,6 +1,8 @@
+// Made by Anthony Pallone
+// Problem #2
+
 #include <iostream>
 #include <algorithm>
-#include <string>
 
 using namespace std;
 
