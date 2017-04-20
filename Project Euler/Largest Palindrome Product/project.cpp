@@ -14,19 +14,19 @@ int main(){
 }
 
 int largestPalindromeProject(int num){
-  int largest = 0;
+  double largest = 0;
   int range = 1;
   char isPalindrome;
   string buff;
   for(int i = 0; i < num; i++){
-    range *= 10;
+    range = range * 10;
   }
   for(int i = range/10; i < range; i++){
     for (int j = range/10; j < range; j++){
-      buff = std::to_string(i * j);
+      buff = to_string(i * j);
       isPalindrome = 1;
         for(int k = 0; k < buff.length()/2; k++ ){
-          if(buff[k]!=buff[buff.length()-k]){
+          if(buff[k]!=buff[buff.length()-k-1]){
             isPalindrome = 0;
             break;
           }
@@ -34,4 +34,5 @@ int largestPalindromeProject(int num){
       if(isPalindrome == 1 && i*j > largest){largest = i*j;}
     }
   }
+  return largest;
 }
