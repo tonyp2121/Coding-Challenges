@@ -1,11 +1,12 @@
-#Written By Anthony Pallone
-#Problem To Solve was 'i_love_lance_janice'
-#Basically imagine we have workers and these workers are very very very lazy
-#and they also speak in their own language where their lowercase alphabet
-#is reversed (for examble their a means our z and their b means our y, etc)
-#but all capital letters are the same. So were given the tast of translating
-#their Minion Speak into english so we can see if theyre slacking off
-#talking about TV again
+# Problem To Solve was 'i_love_lance_janice'
+# Basically imagine we have workers and these workers are very very very lazy
+# and they also speak in their own language where their lowercase alphabet
+# is reversed (for examble their a means our z and their b means our y, etc)
+# but all capital letters are the same. So were given the tast of translating
+# their Minion Speak into english so we can see if theyre slacking off
+# talking about TV again
+# --------------------------------------------------------------------------
+# -Tony Pallone
 
 def answer(s):
     v = list(s)

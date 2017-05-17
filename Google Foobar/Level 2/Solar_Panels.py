@@ -1,3 +1,9 @@
+# In this Google foobar problem we are tasked with finding the maximum value of
+# the power from the solar rays that we can get. However if were given only one item
+# we must return that one item only even if its a negative number.
+# ----------------------------------------------------------------
+# -Tony Pallone
+
 import random
 
 def answer(xs):
